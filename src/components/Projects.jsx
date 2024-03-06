@@ -21,7 +21,7 @@ const Wrapper = styled.div`
   align-items: center;
   flex-direction: column;
   width: 100%;
-  max-width: 1100px;
+
   gap: 12px;
   @media (max-width: 960px) {
     flex-direction: column;
@@ -147,9 +147,10 @@ const Projects = ({ openModal, setOpenModal }) => {
         <CardContainer>
           {toggle === "all" &&
             projects.map((project, id) => (
-              <Zoom triggerOnce>
+              <Zoom >
               <ProjectCard
               key={id}
+
               project={project}
               openModal={openModal}
               setOpenModal={setOpenModal}
@@ -159,7 +160,7 @@ const Projects = ({ openModal, setOpenModal }) => {
           {projects
             .filter((item) => item.category === toggle)
             .map((project, id) => (
-              <Zoom triggerOnce>
+              <Zoom >
 
               <ProjectCard
               key={id}

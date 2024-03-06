@@ -9,7 +9,8 @@ import Contacts from './components/Contacts'
 import styled from "styled-components";
 import { useState } from 'react'
 import Footer from './components/Footer'
-
+import {AnimatePresence} from "framer-motion"
+import ProjectDetails from './components/Dialog/ProjectDetails'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <main>
       <NavBar />
       <Body>
+<AnimatePresence>
 
       <div >
         <Home />
@@ -30,14 +32,16 @@ function App() {
 <Education />
       <Contacts />
       </Wrapper>
+
       <Footer/>
        {openModal.state && (
-                <ProjectDetails
-                  openModal={openModal}
-                  setOpenModal={setOpenModal}
-                />
-              )}
+         <ProjectDetails
+         openModal={openModal}
+         setOpenModal={setOpenModal}
+         />
+         )}
         </div>
+         </AnimatePresence>
       </Body>
       {/* <Skills /> */}
     </main>
