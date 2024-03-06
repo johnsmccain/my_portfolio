@@ -24,9 +24,9 @@ const NavBar = ({activeTab}) => {
             <nav className={statusNav}>
                 {
                 linkNav.map(value => (
-                    <span key={value} 
+                    <a href={`#${value}`} key={value}
                     className={activeTab === value ? 'active': ''}
-                    onClick={()=>changeTab(value)}>{value}</span>
+                    onClick={()=>changeTab(value)}>{value}</a>
                 ))
                 }
             </nav>
@@ -39,5 +39,5 @@ const NavBar = ({activeTab}) => {
 const mapStateToProps = (state) => ({
     activeTab: state.activeTab
   });
-  
+
   export default connect(mapStateToProps, { changeTabActive })(NavBar);

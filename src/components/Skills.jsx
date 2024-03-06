@@ -1,4 +1,6 @@
-import React from "react";
+
+import  { useRef } from 'react'
+import CustomHook from './CustomHook';
 import styled from "styled-components";
 import { skills } from "../data/constants";
 import { Tilt } from "react-tilt";
@@ -124,8 +126,11 @@ const SkillImage = styled.img`
 `;
 
 const Skills = () => {
+
+  const scrollTab = useRef();
+CustomHook(scrollTab);
   return (
-    <Container id="Skills">
+    <Container id="skills" ref={scrollTab}>
       <Wrapper>
         <Zoom  >
 

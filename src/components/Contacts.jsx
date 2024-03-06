@@ -61,7 +61,7 @@ const Footer = () => {
     });
   };
   return (
-    <Container id="footer">
+    <Container id="contacts">
       <Profile>
         <Slide direction="left" delay={1}>
           <h1>Contact</h1>

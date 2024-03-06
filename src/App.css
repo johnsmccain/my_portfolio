@@ -96,6 +96,9 @@ section {
 .delay-06{
     animation-delay: 0.6s!important;
 } */
+a{
+  text-decoration: none;
+}
 section.home {
   padding-top: 150px;
   display: grid;

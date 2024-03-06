@@ -9,7 +9,7 @@ const scrollTab = useRef();
 CustomHook(scrollTab);
 
 return (
-    <section ref={scrollTab} className='home'>
+    <section ref={scrollTab} className='home' id='home'>
         <div className="content">
             <Slide direction="left" delay={1}>
 
