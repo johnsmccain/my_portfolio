@@ -10,6 +10,7 @@ import work from "../assets/work.png"
 import movix from "../assets/movix.png"
 import airbnb from "../assets/airbnbconsole.png"
 import artgrams from "../assets/artgrams.png"
+import qruse from "../assets/qruse.png"
 export const Bio = {
   name: "John Danlami",
   roles: [
@@ -276,7 +277,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://internship.zuri.team/images/Zuri-Internship.png",
+    img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAbFBMVEUArv////8AqP8ArP8Aqv/m9f+J0f/0+v9Zv/+t3P9dwf+34f9Ywv/R6v8Ar//5/v+85f9Kv/+X1/+i2//X8P8zuv9Lu/94zP8ptf9+z//h9f/v+v+m3f8Usv+u4f/J6v9pyP/P7v+Gzf9AuP83zPgFAAAFJ0lEQVR4nO2d65aiOBRGkUTsKhluKl4oFKfe/x1HiyRQI7lYw2rP6fn2z14xyW4g15NUFAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/lyEdCJ4FjUqtK7enOxnK1ccEndRx3auosaldgsfFzlTWYfcV9Qym6moEfLqNVzs5ilKVP6iuvlf1HjpL/bXPMXKtb+o5DWG7zAMA4Yw/CEwhOETwBCGPwSG/w/DmUbe8oOq4ckxe7pPaeP4Vi0Rx94Z7I6QYfPXQGWds4k46zaXU6N+c33bH2JXDUVZjPJ9qWEeBSwtyLY6PT7vqvU8cU28f6XhKvb+Tu6K6fdscXY5DohfpA2FcLQaeRKiSNtQHNzt0yXyV5S0oSydfjea1ltTyoZiLNgUSVfubnTVdfTP+cFXVcqGhyHhur61tX2lhJDZZlguXPmWPgkbSvOLc/avJkVmQwN78tSVrqHUq555OtFkymGB+exuUekatlpwN1kZ8WneVPfqLllDeVZpSktdhPlMlzwNhUqysb6DIg2qLlVDcexT5I6PzHypK1fBVA31Rk7lakbkNqC+VA0z1Y4cXHmaIUHjaLGoGtZ9gq1nWHdRGaX2ChM1FEmf4MPT16n/iEVhT0fUUPcVvo1M8yU6GmWihur1qz25Cj2Bt7+mRA11amdDc0d3m/bXmaih6FPn3pgJ/bDt63S0DVf++a0aGSzsKWgaRk2goZlE2oavVA1FsGHceKpM1VB9h/7AHv0hrm0fIlHD4LbUhAdtmRlKtUpR+5saNdlvrAmIGm6CK6IHbraOhaihfjIBwXx6tePTlhVNQ90J5AEZq3mWbdxG1VCeQmsSq5S2QTpZQ9VEulYxVMqru85UDc1YpfBtT+kOseJmqPuLReJWFLGKS7AtypE1HHYtKmGf+8ko1YEX/Ax1l3gbrpRTO+BCyrYrGpOXbXGfrqFpTm9cO3Hfe9KbT/dt+ijdbL/lxdBQT6HUgzwf+/3D3fs+OV8eYxc4Goo2IMrIYFvHoGwYicwWhzEBv5bmC9k1Ez8bs0wK1oaRiBKH43JTylgZsuvxhxqKtFhN/Da/JJ/3QCq2o7ZxHaWsj2cT15aftpdqX+swMT3yth0M42D4Vc97aKKKTYxNXMZXxuoBc5s9PYHKy7akw99QB5MyW8UIR7z3WXFbiQpHL+tbNy7YG+qwdeseKXtD3VnYOnz+hnoD0bpFyt3QhA3Zw+CZG+qVAOu2BX9Dla31M+RuaMJN7CENzA11X+EIimJuqJccHVG0vA1NEKrjTBhrQ6FH3a7wN9aGJubLFRzG2dCcM7R3hhFrwyFc3xF7ydkwNoLurXC2hrG5hMYTdMPUULYXk4k13quHo6GQWTUcfNp79sFpG7b9eVcxQsqoXI/ugTr6NvpJG9aLZrm9Fh/V311aftElH9tvC+CdN5KBuKGHZuePKGJtuAm5Wo6x4Z9wltthuHWexx9D2vBzuVo9Xp+XL9f7Q/jVh6QNo1hG7a5Ou2TzVtxZb45d3T53syNtQ1XHPr5E9YzPFszB8L/xasPRaGXW4kaDoHSi4N93e0tVpgbv3QHhiHrINt1OFfyaG3ic50WfIZuUImBo3cZ9En14kaAh7i8NBIYw/CEwhOETwBCGPwSGMHyCVxk+npB4oJynqBcZBlybms9UasAfmpjrMthvZGf3X53IT86NzmeQlecMw/I4/yO8l+tjxjn+7ysKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAjH8Am4NUu2S5kuoAAAAASUVORK5CYII=",
     role: "Frontend Engineer Intern",
     company: "Zuri-Internship",
     date: "Oct 2020 - Dec 2020",
@@ -316,7 +317,7 @@ export const experiences = [
   },
   {
     id: 2,
-    img: "https://qruse.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbrand.589a9a59.png&w=96&q=75",
+    img: qruse,
     role: "Web Developer",
     company: "Qruse",
     date: "Jul 2023",
